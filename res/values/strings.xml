@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App related -->
+    <string name="app_name">Minesweeper</string>
+
+    <!-- Action bar -->
+    <string name="action_new_game">New Game</string>
+    <string name="action_info">Info</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Game Timer -->
+    <string name="timer_start_time">0000</string>
+
+    <!-- Info Dialog -->
+    <string name="info_dialog_title">Help</string>
+    <string name="info_dialog_control_title">Controls</string>
+    <string name="info_dialog_control_message">&#8226;\tSingle tap over a hidden cell to open the cell.\n&#8226;\tDouble tap over a hidden cell to flag the cell.</string>
+    <string name="info_dialog_description_title">Description</string>
+    <string name="info_dialog_description_message">The objective of the game is to open all the cells of the board which do not contain a mine. You lose if you set off a mine.\n\nEvery non-mine cell you open will tell you the total number of mines in the eight neighboring cells. Once you are sure that a cell contains a mine, you can double tap on that cell to put a flag on it as a reminder.\n\nTo start a new game (or abandoning the current one), just click on the yellow face button.\n\nHappy mine sweeping!</string>
+    <string name="info_dialog_image_content_description">Board information</string>
+    <string name="info_dialog_close_button_text">Close</string>
+    <string name="info_dialog_do_not_show_again_button_text">Do not show again</string>
+    <string name="info_dialog_do_not_show_again_button_key">Do not show again</string>
+
+    <!-- Preferences: Expertise -->
+    <string name="expertise_beginner">Beginner</string>
+    <string name="expertise_intermediate">Intermediate</string>
+    <string name="expertise_expert">Expert</string>
+    <string name="expertise_key">Expertise</string>
+    <string name="expertise_summary">Click to choose your level of expertise</string>
+    <string name="expertise_title">Expertise</string>
+
+    <string-array name="expertise_entries">
+        <item>@string/expertise_beginner</item>
+        <item>@string/expertise_intermediate</item>
+        <item>@string/expertise_expert</item>
+    </string-array>
+
+    <!-- Info: Best Scores -->
+    <string name="best_scores_key">Best Scores</string>
+    <string name="best_scores_title">Best Scores</string>
+    <string name="best_scores_summary">Click to view best performances</string>
+    <string name="best_scores_beginner">Beginner</string>
+    <string name="best_scores_intermediate">Intermediate</string>
+    <string name="best_scores_expert">Expert</string>
+    <string name="best_scores_default">9999</string>
+    <string name="best_scores_resetScores">Reset Scores</string>
+    <string name="best_scores_close">Close</string>
+
+    <!-- Market: Rate this app -->
+    <string name="market_rate_app_key">Rate the App</string>
+    <string name="market_rate_app_title">Rate this App</string>
+    <string name="market_rate_app_summary">Click here to rate this app</string>
+
+    <!-- Market: Other Apps -->
+    <string name="market_other_apps_by_us_key">Our App Portfolio</string>
+    <string name="market_other_apps_by_us_title">Our App Portfolio</string>
+    <string name="market_other_apps_by_us_summary">Click here to view other apps published by us</string>
+    <string name="market_other_apps_by_us_publisher">Thotsakan Apps</string>
+
+    <!-- AdMob -->
+    <string name="ad_unit_id"></string>
+
+</resources>

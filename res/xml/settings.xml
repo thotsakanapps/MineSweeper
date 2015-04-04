@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true" >
+
+    <!-- Game related preferences -->
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="Game Preferences" >
+
+        <!-- Level of Expertise -->
+        <ListPreference
+            android:defaultValue="@string/expertise_beginner"
+            android:entries="@array/expertise_entries"
+            android:entryValues="@array/expertise_entries"
+            android:key="@string/expertise_key"
+            android:summary="@string/expertise_summary"
+            android:title="@string/expertise_title" />
+
+        <!-- High Scores -->
+        <Preference
+            android:key="@string/best_scores_key"
+            android:summary="@string/best_scores_summary"
+            android:title="@string/best_scores_title" />
+    </PreferenceCategory>
+
+    <!-- App related options -->
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="App related options" >
+
+        <!-- Rate this app -->
+        <Preference
+            android:key="@string/market_rate_app_key"
+            android:summary="@string/market_rate_app_summary"
+            android:title="@string/market_rate_app_title" />
+
+        <!-- Other apps published by us -->
+        <Preference
+            android:key="@string/market_other_apps_by_us_key"
+            android:summary="@string/market_other_apps_by_us_summary"
+            android:title="@string/market_other_apps_by_us_title" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
