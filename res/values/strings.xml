@@ -60,6 +60,6 @@
     <string name="market_other_apps_by_us_publisher">Thotsakan Apps</string>
 
     <!-- AdMob -->
-    <string name="ad_unit_id"></string>
+    <string name="ad_unit_id">ca-app-pub-4624426958453943/8919587111</string>
 
 </resources>
